@@ -1,7 +1,11 @@
-<greeter></greeter>
+
+<clock/>
+<greeter/>
 
 <script src="tags/greeter.tag" type="riot/tag"></script>
+<script src="tags/clock.tag" type="riot/tag"></script>
 <script src="//cdn.jsdelivr.net/g/riot@2.0(riot.min.js+compiler.min.js)"></script>
 <script>
 	riot.mount('greeter')
+	riot.mount('clock', 123)
 </script>
